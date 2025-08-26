@@ -5,7 +5,7 @@
     }
   },
   "env": {
-    "TELEGRAM_BOT_TOKEN": "7890620930:AAHHmKIxCFKxKWm0KqsA_gYWNYTJokymul8",
-    "SECRET_KEY": "xi@wu321"
+    "TELEGRAM_BOT_TOKEN": "@telegram_bot_token",
+    "SECRET_KEY": "@secret_key"
   }
 }
