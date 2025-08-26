@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "api/send-data.js": {
+      "maxDuration": 30
+    }
+  },
+  "env": {
+    "TELEGRAM_BOT_TOKEN": "7890620930:AAHHmKIxCFKxKWm0KqsA_gYWNYTJokymul8",
+    "SECRET_KEY": "xi@wu321"
+  }
+}
